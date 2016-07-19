@@ -1,0 +1,139 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Cat on Mars!</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!----webfonts---->
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Raleway:400,100,300,500,600,700,800,900,200' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,300,500,600,700,800,900,200' rel='stylesheet' type='text/css'>
+<!----//webfonts---->
+</head>
+<body>
+	<!----wrap---->
+		<div class="top-bannar" id="move-top">
+			<div class="container">
+				<div class="top-header row">
+					<!---logo--->
+					<script src="js/classie.js"></script>
+					<script src="js/uisearch.js"></script>
+					<script>
+						new UISearch( document.getElementById( 'sb-search' ) );
+					</script>
+					<!---//logo--->
+					<!--top-nav---->
+						 <div class="box" id="box">
+							 <div class="box_content">
+								<div class="box_content_center">
+								 	<div class="form_content">
+										<div class="menu_box_list">
+											<ul>
+												<li><a href="#home"><span>home</span></a></li>
+												<li><a href="#features"><span>Features</span></a></li>
+												<li><a href="#works"><span>Works</span></a></li>
+												<li><a href="#gallery"><span>Gallery</span></a></li>
+												<li><a href="#testimonials"><span>Testimonials</span></a></li>
+												<li><a href="#contact"><span>Contact</span></a></li>
+												<div class="clearfix"> </div>
+											</ul>
+										</div>
+										<a class="boxclose" id="boxclose"> <span> </span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!---start-click-drop-down-menu----->
+			        <!----start-dropdown--->
+			         <script type="text/javascript">
+						var $ = jQuery.noConflict();
+							$(function() {
+								$('#activator').click(function(){
+									$('#box').animate({'top':'0px'},900);
+								});
+								$('#boxclose').click(function(){
+								$('#box').animate({'top':'-1000px'},900);
+								});
+							});
+							$(document).ready(function(){
+							//Hide (Collapse) the toggle containers on load
+							$(".toggle_container").hide();
+							//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+							$(".trigger").click(function(){
+								$(this).toggleClass("active").next().slideToggle("slow");
+									return false; //Prevent the browser jump to the link anchor
+							});
+
+						});
+					</script>
+					<!---//End-click-drop-down-menu----->
+					<!--top-nav---->
+					<div class="clear"> </div>
+					<!---header-welcomenote--->
+					<div class="col-md-12 header-welcome-note">
+						<div class=" col-md-6 welcome-note-left">
+							<span class="divice12"><img src="images/divice.png" alt="" /></span>
+								<h1><a>Cat On Mars!</a></h1>
+								<p>Hercules is a grumpy cat that found himself on Mars! Play Cat Goes on Mars! and bring Hercules home.</p><br>
+								<p>Download the game and start playing with Hercules while challenging friends!</p><br>
+								<p><a href="https://www.instagram.com/herculesthekitten/" target="_blank">Hercules has his own instagram account, check it out here!</a></p>
+									<ul class="button">
+										<li><a class="active" target="_blank" href="https://itunes.apple.com/us/app/cat-on-mars!/id1119955021?ls=1&mt=8">Download From the App Store</a></li>
+									</ul>
+						</div>
+						<div class="col-md-6 welcome-note-right">
+								<img src="images/catonMarsPhone.png"/>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<!---//header-welcomenote--->
+				</div>
+				</div>
+		</div>
+		<!---start-content--->
+		<div  class=" features" id="features">
+				<div class=" row superb-feature">
+					<div class="image123">
+					    <div class="imgContainer">
+					        <img src="images/1.jpg" height="200" width="200"/>
+					    </div>
+					    <div class="imgContainer">
+					        <img class="middle-img" src="images/7.jpg"/ height="200" width="200"/>
+					    </div>
+					    <div class="imgContainer">
+					         <img src="images/2.jpg"/ height="200" width="200"/>
+					    </div>
+							<div class="imgContainer">
+					         <img src="images/3.jpg"/ height="200" width="200"/>
+					    </div>
+							<div class="imgContainer">
+					         <img src="images/4.jpg"/ height="200" width="200"/>
+					    </div>
+							<div class="imgContainer">
+					         <img src="images/5.jpg"/ height="200" width="200"/>
+					    </div>
+							<div class="imgContainer">
+					         <img src="images/6.jpg"/ height="200" width="200"/>
+					    </div>
+					</div>
+				</div>
+		</div>
+		<!-- /footer-->
+		<div class="footer">
+			<div class="footer-content">
+						<div class="col-md-12 copy-right">
+							<p>Template by &nbsp;<a target="_blank" href="http://w3layouts.com">W3Layouts</a></p>
+						</div>
+			</div>
+		</div>
+</body>
+</html>
