@@ -2,6 +2,13 @@ body{
 	background:#FFFFFF;
 	font-family: 'Raleway', sans-serif;
 }
+.appstore-button {
+	background: url(../images/appstore.png);
+	width: 300px;
+	height: 100px;
+	border: 0;
+	background-size: 100%; /* To fill the dimensions of container (button), or */
+}
 .imgContainer{
     float:left;
 }
